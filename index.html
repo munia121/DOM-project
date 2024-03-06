@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Tasbih</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="w-[1400px] mx-auto mt-10">
+    <header>
+        <div class="text-center bg-red-200 py-[150px] h-[500px] rounded-lg space-y-5">
+            <h1 class="text-5xl font-bold">Welcome to Digital counting website</h1>
+            <p class="w-[700px] mx-auto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium optio minima et error molestias necessitatibus maxime eius recusandae, quaerat totam quos, fugiat odio nostrum tenetur voluptatum autem ea, id velit.</p>
+            <button class="btn bg-orange-100 font-bold">Visit our site</button>
+        </div>
+    </header>
+
+    <main class="mt-10">
+        <section>
+            <div>
+                <h1 class="text-5xl font-extrabold text-center ">Digital counting</h1>
+                <div class="mt-10 text-center">
+                    <p id="counter" class="text-center text-4xl bg-amber-100 w-40 h-16 flex items-center justify-center rounded-2xl mx-auto">0</p>
+                </div>
+                <div class="text-center mt-10">
+                    <button onclick="increment()" class="btn font-bold bg-red-200">Increment</button>
+                    <button onclick="decrement()" class="btn font-bold bg-red-200" >Decrement</button>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script/index.js"></script>
+</body>
+</html>
